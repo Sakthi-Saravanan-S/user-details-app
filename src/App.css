@@ -1,0 +1,76 @@
+.bg-dark input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.bg-light input::placeholder {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.light-mode {
+  color: #333;
+}
+
+.dark-mode {
+  color: #f8f9fa;
+}
+
+.card-custom {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.dark-mode .card-custom {
+  border: 1px solid #444;
+}
+
+.card-header-custom {
+  background-color: #f1f1f1;
+  padding: 10px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.dark-mode .card-header-custom {
+  background-color: #444;
+  border-bottom: 1px solid #555;
+}
+
+.card-body-custom {
+  padding: 15px;
+}
+
+.card-body-custom p {
+  margin-bottom: 10px;
+}
+
+.bg-dark .card {
+  border: 1px solid #ddd;
+}
+
+.bg-light .form-control {
+  border: 1px solid #ccc;
+}
+
+.bg-light .list-group-item {
+  border-bottom: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.bg-light .list-group-item:first-child {
+  border-top: 1px solid #ccc;
+}
+
+.list-group-item a {
+  text-decoration: none;
+}
+
+.list-group-item a:hover {
+  text-decoration: underline;
+}
